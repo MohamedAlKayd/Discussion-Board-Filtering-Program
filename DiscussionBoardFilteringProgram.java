@@ -13,7 +13,7 @@ All Java Util Libraries
 
 import java.util.*;
 
-public class A1_Q3 {
+public class Discussion_Board {
 
     /*
      Testing ~ Different Discussion Boards
@@ -21,7 +21,9 @@ public class A1_Q3 {
      */
 
     public static void main(String[] args) {
-        Discussion_Board(input);
+        Discussion_Board(input1);
+        Discussion_Board(input2);
+
     }
 
     /*
@@ -41,7 +43,7 @@ public class A1_Q3 {
      Test 2
      */
 
-    static String[] input = {"user1 doubledutch double double dutch",
+    static String[] input2 = {"user1 doubledutch double double dutch",
             "user2 dutch doubledutch doubledutch double",
             "user3 not double dutch doubledutch"
 
